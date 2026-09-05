@@ -1,0 +1,25 @@
+:root{
+  --space-0:0px;
+  --space-1:4px;
+  --space-2:8px;
+  --space-3:12px;
+  --space-4:16px;
+  --space-5:24px;
+  --space-6:32px;
+  --space-7:48px;
+  --space-8:64px;
+  --space-9:96px;
+  --space-10:128px;
+  --space-11:180px;
+
+  --gutter:24px;
+  --page-margin:40px;
+  --page-margin-sm:20px;
+  --measure-narrow:34ch;
+  --measure-prose:62ch;
+  --container-max:1360px;
+  --container-text:820px;
+
+  --section-y:var(--space-10);
+  --section-y-sm:var(--space-8);
+}

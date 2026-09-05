@@ -1,0 +1,25 @@
+:root{
+  /* Radii — restrained. Nothing pill-shaped except the tag. */
+  --radius-none:0px;
+  --radius-xs:2px;
+  --radius-sm:3px;
+  --radius-md:6px;
+  --radius-lg:10px;
+  --radius-pill:999px;
+
+  --border-hairline:1px solid var(--line-hairline);
+  --border-strong:1px solid var(--line-strong);
+  --border-ink:1px solid var(--charcoal-900);
+
+  /* Shadows are warm and shallow — light through linen, not drop shadows */
+  --shadow-none:none;
+  --shadow-sm:0 1px 2px rgba(52,45,36,.05);
+  --shadow-md:0 2px 6px rgba(52,45,36,.06),0 10px 24px -12px rgba(52,45,36,.10);
+  --shadow-lg:0 4px 12px rgba(52,45,36,.07),0 24px 56px -20px rgba(52,45,36,.16);
+  --shadow-inset-hairline:inset 0 0 0 1px var(--line-hairline);
+
+  --overlay-scrim:rgba(34,31,27,.44);
+  --overlay-blur:saturate(120%) blur(12px); /* @kind other */
+  --protection-top:linear-gradient(180deg,rgba(34,31,27,.55) 0%,rgba(34,31,27,0) 100%); /* @kind other */
+  --protection-bottom:linear-gradient(0deg,rgba(34,31,27,.62) 0%,rgba(34,31,27,0) 100%); /* @kind other */
+}

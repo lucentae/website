@@ -1,0 +1,72 @@
+:root{
+  /* Base neutrals — warm, never pure black or white */
+  --bone-50:#FBF8F3;
+  --bone-100:#F6F1E8;
+  --sand-200:#EFE7D9;
+  --sand-300:#E4D9C6;
+  --sand-400:#D6C8B0;
+  --stone-500:#A89C89;
+  --stone-600:#7C7365;
+  --charcoal-700:#4A443C;
+  --charcoal-800:#33302B;
+  --charcoal-900:#221F1B;
+
+  /* Verdant — primary accent */
+  --verdant-100:#E2EAE1;
+  --verdant-300:#9DB79F;
+  --verdant-500:#47734F;
+  --verdant-600:#3A5C40;
+  --verdant-700:#2B4430;
+
+  /* Clay — secondary accent */
+  --clay-100:#F4E3DA;
+  --clay-300:#DCA88E;
+  --clay-500:#9C4A2F;
+  --clay-600:#833C25;
+  --clay-700:#65301E;
+
+  /* Semantic status */
+  --status-positive:#5C7A55;
+  --status-caution:#B98A2E;
+  --status-critical:#A33C2C;
+  --status-info:#5A6E7A;
+
+  /* Semantic aliases */
+  --surface-page:var(--bone-100);
+  --surface-raised:var(--bone-50);
+  --surface-sunken:var(--sand-200);
+  --surface-card:var(--bone-50);
+  --surface-inverse:var(--charcoal-900);
+  --surface-accent:var(--verdant-500);
+  --surface-accent-soft:var(--verdant-100);
+  --surface-secondary-soft:var(--clay-100);
+
+  --text-heading:var(--charcoal-900);
+  --text-body:var(--charcoal-800);
+  --text-muted:var(--stone-600);
+  --text-faint:var(--stone-500);
+  --text-accent:var(--verdant-600);
+  --text-on-accent:var(--bone-50);
+  --text-on-inverse:var(--bone-100);
+
+  --line-hairline:var(--sand-300);
+  --line-strong:var(--sand-400);
+  --line-inverse:rgba(246,241,232,.22);
+  --focus-ring:var(--verdant-500);
+}
+
+/* Terracotta-primary alternative — the original scheme, kept for comparison.
+   Apply with <html data-theme="clay">. */
+[data-theme="clay"]{
+  --verdant-100:#F4E3DA;
+  --verdant-300:#DCA88E;
+  --verdant-500:#9C4A2F;
+  --verdant-600:#833C25;
+  --verdant-700:#65301E;
+
+  --clay-100:#E2EAE1;
+  --clay-300:#9DB79F;
+  --clay-500:#47734F;
+  --clay-600:#3A5C40;
+  --clay-700:#2B4430;
+}

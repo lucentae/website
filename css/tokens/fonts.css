@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..600;1,400..500&family=Hanken+Grotesk:ital,wght@0,300..700;1,300..600&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&display=swap");
+
+/* EB Garamond, Hanken Grotesk and IBM Plex Sans Arabic are served from Google Fonts.
+   No brand font binaries were supplied — see readme.md > Typography. */
+:root{
+  --font-serif-display:"EB Garamond",Georgia,"Times New Roman",serif;
+  --font-sans-text:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif;
+  --font-arabic:"IBM Plex Sans Arabic","Noto Sans Arabic",Tahoma,sans-serif;
+  --font-mono:ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+
+/* Arabic runs entirely in the sans — the Garamond display face has no Arabic. */
+[lang="ar"],[dir="rtl"]{font-family:var(--font-arabic)}
+[lang="ar"] h1,[lang="ar"] h2,[lang="ar"] h3,[dir="rtl"] h1,[dir="rtl"] h2,[dir="rtl"] h3{font-family:var(--font-arabic);font-weight:300;letter-spacing:0}

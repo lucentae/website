@@ -1,0 +1,13 @@
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body{margin:0;background:var(--surface-page);color:var(--text-body);font:var(--type-body);text-wrap:pretty}
+h1,h2,h3,h4{margin:0;color:var(--text-heading);font-family:var(--font-serif-display);letter-spacing:var(--tracking-heading);font-weight:var(--weight-regular)}
+h1{font:var(--type-h1);letter-spacing:var(--tracking-display)}
+h2{font:var(--type-h2)}
+h3{font:var(--type-h3)}
+p{margin:0 0 1em;max-width:var(--measure-prose)}
+a{color:var(--text-accent);text-decoration:none;border-bottom:1px solid color-mix(in oklab,var(--verdant-500) 35%,transparent);transition:color var(--duration-fast) var(--ease-standard),border-color var(--duration-fast) var(--ease-standard)}
+a:hover{color:var(--verdant-700);border-bottom-color:var(--verdant-700)}
+::selection{background:var(--verdant-100);color:var(--charcoal-900)}
+:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px}
+img{display:block;max-width:100%}
